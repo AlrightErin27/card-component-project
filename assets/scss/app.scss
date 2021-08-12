@@ -9,3 +9,12 @@ $metric-wrapper: 40rem;
 $metric-gutter: 1.25rem;
 $transition-snappy: 200ms linear;
 $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
+
+.container {
+  & h1 {
+    background-color: saddlebrown;
+  }
+  &__text {
+    color: blue;
+  }
+}

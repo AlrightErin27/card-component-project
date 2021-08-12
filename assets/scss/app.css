@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap");
+* {
+  background-color: black;
+}
+.main {
+  padding: 2rem 5rem 2rem 5rem;
+}
+.text {
+  font-family: "STIX Two Text", serif;
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+}
+.imgContainer {
+  display: inline-flex;
+  position: relative;
+}
+.overlay span {
+  background: rgb(49, 1, 104);
+  bottom: 0;
+  display: block;
+  opacity: 10;
+  position: absolute;
+  z-index: 1;
+  max-height: 6rem;
+  min-width: 26rem;
+  margin: 2rem;
+  padding: 0.5rem 0 1rem 1rem;
+}
+span {
+  font-size: 2rem;
+  color: white;
+  font-family: "STIX Two Text", serif;
+  text-align: left;
+}
+span p {
+  font-family: "Barlow Condensed", sans-serif;
+  background: rgb(49, 1, 104);
+}
+.img {
+  height: 31rem;
+  width: 27rem;
+  margin: 2rem;
+}
+.overlay:hover {
+  filter: grayscale(90%) brightness(120%) sepia(100%) hue-rotate(240deg)
+    saturate(100%);
+}
